@@ -1,0 +1,22 @@
+body {
+    background-color: #6A96FF;
+    margin: 0px;
+}
+header{ 
+    margin: 0px;
+    height: 100px;
+    grid-template-columns: 10% 78% 12%;
+    display: grid;
+}
+h1 {
+    margin: 0px;
+    height: 100px;
+    text-align: center;
+}
+#directions {
+    background-color:#1B2640;
+}
+#bus{
+width: 200px;
+height: 120px;
+}
