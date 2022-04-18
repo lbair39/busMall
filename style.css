@@ -1,22 +1,42 @@
 body {
-    background-color: #6A96FF;
-    margin: 0px;
+    background-color: #C27AA9;
+    margin:0px;
+    font-family: 'Akshar', sans-serif;
+    color: #FAA43E;
 }
 header{ 
     margin: 0px;
     height: 100px;
-    grid-template-columns: 10% 78% 12%;
+    grid-template-columns: 15% 72% 15%;
     display: grid;
 }
 h1 {
     margin: 0px;
     height: 100px;
     text-align: center;
+    font-size: 100px;
+    
 }
 #directions {
-    background-color:#1B2640;
+    background-color:#E67400;
+ Font-size: 20px;
+ text-align: center;
 }
 #bus{
 width: 200px;
-height: 120px;
+height: 122px;
+}
+main {
+    display: grid;
+    grid-template-columns:  15% 70% 15%;
+}
+#pro {
+    border: solid #4A747A 4px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+#sideBar {
+    background-color: #E67400;
+    height: 400px;
 }
