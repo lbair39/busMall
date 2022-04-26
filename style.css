@@ -33,7 +33,7 @@ main {
 
 #sideBar {
     background-color: #E67400;
-    height: 500px;
+    height: 450px;
 }
 #pic1 {
     border: solid #4A747A 4px;
@@ -55,4 +55,9 @@ main {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
     margin-left: 35px;
+}
+h4 {
+ font-size:30px;
+ text-align: center;
+ margin-top: 200px;
 }

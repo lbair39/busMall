@@ -37,11 +37,12 @@ Image.allImages.push(new Image('Bubblegum', './images/bubblegum.jpg'));
 Image.allImages.push(new Image('Chair', './images/chair.jpg'));
 Image.allImages.push(new Image('Cthulhu', './images/cthulhu.jpg'));
 Image.allImages.push(new Image('Dog-Duck', './images/dog-duck.jpg'));
+Image.allImages.push(new Image('Dragon-Meat', './images/dragon.jpg'));
 Image.allImages.push(new Image('Pen', './images/pen.jpg'));
 Image.allImages.push(new Image('Pet-Sweep', './images/pet-sweep.jpg'));
 Image.allImages.push(new Image('Scissors', './images/scissors.jpg'));
-Image.allImages.push(new Image('Shark', './images/sharl.jpg'));
-Image.allImages.push(new Image('Sweep', './images/sweep.jpg'));
+Image.allImages.push(new Image('Shark', './images/shark.jpg'));
+Image.allImages.push(new Image('Sweep', './images/sweep.png'));
 Image.allImages.push(new Image('Tauntaun', './images/tauntaun.jpg'));
 Image.allImages.push(new Image('Unicorn', './images/unicorn.jpg'));
 Image.allImages.push(new Image('Water-Can', './images/water-can.jpg'));
@@ -73,5 +74,24 @@ function renderImage(){
     pic2.renderImage(secondPicElement, secondPicTitle);
     pic3.renderImage(thirdPicElement, thirdPicTitle);
 }
+
+function handleClick(e){
+    const imageClicked = e.target.id;
+    if(imageClicked === 'pic1' || imageClicked ===
+    'pic2' || imageClicked === 'pic3'){
+        count++;
+    }
+if(imageClicked === 'pic1'){
+    pic1.clicks++;
+}
+if(imageClicked === 'pic2'){
+    pic2.clicks++;
+}
+if(imageClicked === 'pic3'){
+    pic3.clicks++;
+}
+
 getThreeImages();
 renderImage ();
+}
+picContainerElement.addEventListener('click', 'count');
