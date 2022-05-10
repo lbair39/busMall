@@ -3,3 +3,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+## Chart.js
+- https://www.chartjs.org/docs/latest/

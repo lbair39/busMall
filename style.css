@@ -15,6 +15,7 @@ h1 {
     height: 100px;
     text-align: center;
     font-size: 100px;
+    text-shadow: 5px 5px #2d2e2e;
     
 }
 #directions {
@@ -60,4 +61,5 @@ h4 {
  font-size:30px;
  text-align: center;
  margin-top: 200px;
+ text-shadow: 3px 3px #2d2e2e;
 }
